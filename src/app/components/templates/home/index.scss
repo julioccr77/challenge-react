@@ -1,0 +1,25 @@
+.container-home{
+  &__title{
+    font-size: 24px;
+    font-weight: 700;
+    color:#002655;
+    text-align: center;
+  }
+  &__view{
+    margin: 1rem;
+    .label{
+      font-size: 16px;
+      font-weight: 500;
+      margin-right:10px;
+    }
+    img{
+      cursor: pointer;
+    }
+    .icon-disabled{
+      cursor:not-allowed;
+    }
+  }
+  &__table{
+    margin: 1rem 0;
+  }
+}

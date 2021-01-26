@@ -1,0 +1,38 @@
+.table{
+
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  box-shadow: 3px 3px 10px #004EAF1A;
+  border-radius: 10px;
+  opacity: 1;
+  .container-table{
+    width: 100%;
+    border-spacing: 0;
+    text-align: center;
+    .table-header{
+      color: #DE6D19;
+      .table-header-item{
+        border-bottom: 2.5px solid #e6eaee;
+        padding: 1rem 0.5rem;
+      }
+    }
+    .table-body{
+
+      .table-body-item{
+        border-bottom: 2.5px solid #e6eaee;
+        padding: 0.7rem 0.5rem;
+        font-size: 14px;
+        font-family: 'Gotham-Book' , sans-serif;
+      }
+      .item-bold{
+        font-weight: 700;
+      }
+    }
+    .row-selected{
+      td{
+        background: #fbc9b6;
+      }
+    }
+
+  }
+
+}

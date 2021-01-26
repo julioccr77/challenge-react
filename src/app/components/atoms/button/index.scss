@@ -1,0 +1,41 @@
+
+.container-button{
+  button{
+    color: #fff;
+    border-radius: 7px;
+    border: none;
+    opacity: 1;
+    width: 100%;
+    min-width: 110px;
+    height: 33px;
+    outline: none;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  .button-disabled{
+    cursor: not-allowed;
+  }
+}
+
+.button-blue{
+  button{
+    background: #002655;
+  }
+}
+.button-orange{
+  button{
+    background: #DE6D19;
+  }
+}
+
+.button-red{
+  button{
+    background: #DB202F;
+  }
+}
+
+.button-green{
+  button{
+    background: #A1D049;
+  }
+}
