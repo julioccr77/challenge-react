@@ -1,3 +1,3 @@
 export { default as Home } from './home/Home';
-export { default as Calulator } from './calulator/Calulator';
+export { default as Calculator } from './calculator/Calculator';
 

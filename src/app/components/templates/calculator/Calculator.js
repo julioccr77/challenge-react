@@ -5,7 +5,7 @@ import {Table} from "../../molecules";
 import {Button} from "../../atoms";
 import {RiskCalculatorInput} from "../../organisms";
 
-export default function Home({ currentData, portfolio, onChange, rebalance, riskLevel, listBalance }) {
+export default function Calculator({ currentData, portfolio, onChange, rebalance, riskLevel, listBalance }) {
 
   return (
     <div className="container-calculator">

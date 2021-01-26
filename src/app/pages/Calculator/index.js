@@ -3,7 +3,7 @@ import './index.scss';
 import { useSelector } from 'react-redux';
 import { useParams } from 'react-router-dom';
 
-import {Calulator} from "../../components/templates";
+import {Calculator} from "../../components/templates";
 
 export default function CalculatorPage() {
   const { data }  = useSelector((state) => state.riskDuck);
@@ -73,7 +73,7 @@ export default function CalculatorPage() {
 
   return(
     <div>
-      <Calulator
+      <Calculator
         portfolio={portfolio}
         onChange={onChangePortfolio}
         rebalance={rebalance}

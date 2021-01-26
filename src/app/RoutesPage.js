@@ -8,7 +8,7 @@ import {
 import {Routes} from "../routes";
 import HomePage from "./pages/Home";
 import {withBodyHome} from "./components/organisms/bodyHome/BodyHome";
-import CalculatorPage from "./pages/Calulator";
+import CalculatorPage from "./pages/Calculator";
 
 
 const RoutesPage = (props) => {
